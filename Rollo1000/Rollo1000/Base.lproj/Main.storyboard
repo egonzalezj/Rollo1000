@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Rollo1000" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona un número del 1-999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOV-5R-kyf">
+                                <rect key="frame" x="159" y="53" width="282" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Zdr-U0-ith"/>
+                                    <constraint firstAttribute="width" constant="282" id="rPO-gU-TFR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 intentos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlL-8R-GJj">
+                                <rect key="frame" x="502" y="20" width="78" height="29"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KdZ-l8-XxF">
+                                <rect key="frame" x="159" y="264" width="104" height="44"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="Bnb-8O-ukg"/>
+                                    <constraint firstAttribute="height" constant="44" id="v8t-7b-Dc2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                                <state key="normal" title="Adivinar">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ltJ-Ue-rKG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7B-oz-NyQ">
+                                <rect key="frame" x="300" y="264" width="141" height="44"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="RMz-MD-jCe"/>
+                                    <constraint firstAttribute="height" constant="44" id="Yls-AA-KUQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                                <state key="normal" title="Volver a jugar"/>
+                                <connections>
+                                    <action selector="replayBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kbr-bZ-C4M"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B1X-YA-cgr">
+                                <rect key="frame" x="140" y="61" width="320" height="216"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="zmY-KZ-9AD"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.14901960780000001" green="0.68235294120000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="B1X-YA-cgr" firstAttribute="top" secondItem="GOV-5R-kyf" secondAttribute="bottom" constant="-24" id="8oP-4W-Kwe"/>
+                            <constraint firstItem="B1X-YA-cgr" firstAttribute="centerX" secondItem="GOV-5R-kyf" secondAttribute="centerX" id="GGd-6c-mRD"/>
+                            <constraint firstItem="AlL-8R-GJj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Haf-54-IWr"/>
+                            <constraint firstItem="GOV-5R-kyf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="33" id="dC0-cj-cGJ"/>
+                            <constraint firstItem="S7B-oz-NyQ" firstAttribute="top" secondItem="B1X-YA-cgr" secondAttribute="bottom" constant="-13" id="fYO-aj-Lpc"/>
+                            <constraint firstItem="KdZ-l8-XxF" firstAttribute="centerX" secondItem="B1X-YA-cgr" secondAttribute="centerX" constant="-89" id="imp-zp-Xqf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AlL-8R-GJj" secondAttribute="trailing" id="pSN-gx-er4"/>
+                            <constraint firstItem="GOV-5R-kyf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="reD-gt-xMM"/>
+                            <constraint firstItem="KdZ-l8-XxF" firstAttribute="top" secondItem="B1X-YA-cgr" secondAttribute="bottom" constant="-13" id="xBN-6O-Jke"/>
+                            <constraint firstItem="S7B-oz-NyQ" firstAttribute="leading" secondItem="KdZ-l8-XxF" secondAttribute="trailing" constant="37" id="yOl-ke-0QP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="attemptsLbl" destination="AlL-8R-GJj" id="hn8-bY-ep0"/>
+                        <outlet property="display" destination="GOV-5R-kyf" id="tDC-rt-Xhe"/>
+                        <outlet property="picker" destination="B1X-YA-cgr" id="hfr-MI-Wky"/>
+                        <outlet property="playBtn" destination="KdZ-l8-XxF" id="txT-LK-Cgs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="622"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		215B013D1BE12E0E00DA3B5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B013C1BE12E0E00DA3B5E /* AppDelegate.swift */; };
+		215B013F1BE12E0E00DA3B5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B013E1BE12E0E00DA3B5E /* ViewController.swift */; };
+		215B01421BE12E0E00DA3B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215B01401BE12E0E00DA3B5E /* Main.storyboard */; };
+		215B01441BE12E0E00DA3B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215B01431BE12E0E00DA3B5E /* Assets.xcassets */; };
+		215B01471BE12E0E00DA3B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215B01451BE12E0E00DA3B5E /* LaunchScreen.storyboard */; };
+		215B014F1BE12EE200DA3B5E /* Libreria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B014E1BE12EE200DA3B5E /* Libreria.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		215B01391BE12E0E00DA3B5E /* Rollo 1000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rollo 1000.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		215B013C1BE12E0E00DA3B5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		215B013E1BE12E0E00DA3B5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		215B01411BE12E0E00DA3B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		215B01431BE12E0E00DA3B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		215B01461BE12E0E00DA3B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		215B01481BE12E0E00DA3B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215B014E1BE12EE200DA3B5E /* Libreria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Libreria.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		215B01361BE12E0E00DA3B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		215B01301BE12E0E00DA3B5E = {
+			isa = PBXGroup;
+			children = (
+				215B013B1BE12E0E00DA3B5E /* Rollo1000 */,
+				215B013A1BE12E0E00DA3B5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		215B013A1BE12E0E00DA3B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				215B01391BE12E0E00DA3B5E /* Rollo 1000.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		215B013B1BE12E0E00DA3B5E /* Rollo1000 */ = {
+			isa = PBXGroup;
+			children = (
+				215B013E1BE12E0E00DA3B5E /* ViewController.swift */,
+				215B01401BE12E0E00DA3B5E /* Main.storyboard */,
+				215B01431BE12E0E00DA3B5E /* Assets.xcassets */,
+				215B01451BE12E0E00DA3B5E /* LaunchScreen.storyboard */,
+				215B014E1BE12EE200DA3B5E /* Libreria.swift */,
+				215B013C1BE12E0E00DA3B5E /* AppDelegate.swift */,
+				215B01481BE12E0E00DA3B5E /* Info.plist */,
+			);
+			path = Rollo1000;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		215B01381BE12E0E00DA3B5E /* Rollo 1000 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215B014B1BE12E0E00DA3B5E /* Build configuration list for PBXNativeTarget "Rollo 1000" */;
+			buildPhases = (
+				215B01351BE12E0E00DA3B5E /* Sources */,
+				215B01361BE12E0E00DA3B5E /* Frameworks */,
+				215B01371BE12E0E00DA3B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rollo 1000";
+			productName = Rollo1000;
+			productReference = 215B01391BE12E0E00DA3B5E /* Rollo 1000.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		215B01311BE12E0E00DA3B5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ITCH;
+				TargetAttributes = {
+					215B01381BE12E0E00DA3B5E = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = ZK3P88TKCM;
+					};
+				};
+			};
+			buildConfigurationList = 215B01341BE12E0E00DA3B5E /* Build configuration list for PBXProject "Rollo 1000" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 215B01301BE12E0E00DA3B5E;
+			productRefGroup = 215B013A1BE12E0E00DA3B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				215B01381BE12E0E00DA3B5E /* Rollo 1000 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		215B01371BE12E0E00DA3B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215B01471BE12E0E00DA3B5E /* LaunchScreen.storyboard in Resources */,
+				215B01441BE12E0E00DA3B5E /* Assets.xcassets in Resources */,
+				215B01421BE12E0E00DA3B5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		215B01351BE12E0E00DA3B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215B014F1BE12EE200DA3B5E /* Libreria.swift in Sources */,
+				215B013F1BE12E0E00DA3B5E /* ViewController.swift in Sources */,
+				215B013D1BE12E0E00DA3B5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		215B01401BE12E0E00DA3B5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				215B01411BE12E0E00DA3B5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		215B01451BE12E0E00DA3B5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				215B01461BE12E0E00DA3B5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		215B01491BE12E0E00DA3B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		215B014A1BE12E0E00DA3B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		215B014C1BE12E0E00DA3B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rollo1000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.itchihuahua.Rollo1000;
+				PRODUCT_NAME = "Rollo 1000";
+			};
+			name = Debug;
+		};
+		215B014D1BE12E0E00DA3B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rollo1000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.itchihuahua.Rollo1000;
+				PRODUCT_NAME = "Rollo 1000";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		215B01341BE12E0E00DA3B5E /* Build configuration list for PBXProject "Rollo 1000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215B01491BE12E0E00DA3B5E /* Debug */,
+				215B014A1BE12E0E00DA3B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215B014B1BE12E0E00DA3B5E /* Build configuration list for PBXNativeTarget "Rollo 1000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215B014C1BE12E0E00DA3B5E /* Debug */,
+				215B014D1BE12E0E00DA3B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 215B01311BE12E0E00DA3B5E /* Project object */;
+}
