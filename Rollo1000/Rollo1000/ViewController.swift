@@ -14,6 +14,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     var randNumber: Int = generateNum(1, 999)
     var minimumValue: Int = 1
     var maximumValue: Int = 999
+    var currentValue: Int = 0
 
     @IBOutlet weak var attemptsLbl: UILabel!
     
@@ -36,7 +37,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
     
     @IBAction func playBtn(sender: UIButton) {
-        let currentValue: Int = Int(display.text!)!
+        currentValue = Int(display.text!)!
         attempts++
         attemptsLbl.text = "\(attempts) intentos"
         guess(currentValue)
